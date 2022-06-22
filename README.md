@@ -4,6 +4,8 @@
 
 ## Technologies Used: java script, node.js, Inquirer package
 
-## ![README Generator] (assets/img/readme-generator-img.png)
+## ![README Generator Img] (assets/img/readme-generator-img.png)
 
 ## [Recorded Video link]: https://drive.google.com/file/d/1APHuHYCJSeQ2TixmZTVweaxXgxu-1V6r/view
+
+## [Sample README made with video recording] (sample/README.md)
