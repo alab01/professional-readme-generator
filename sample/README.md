@@ -1,4 +1,4 @@
- # hello
+ # Readme generator
 
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -12,25 +12,25 @@
 - [Questions*](#questions)
 
 ### Description
-📑 yes
+📑 Made a readme generator
 
 #### Installation
-💾 ioi 
+💾 inquierer 
 
 ##### Usage
-💻 yess
+💻 Users can make a professional readme for their apps
 
 ###### License
 this project uses MIT license
 
 ###### Contributing
-🔥 nooo
+🔥 No
 
 ###### Instructions
-📌 ksks
+📌 answer the prompts
 
 ###### Questions
 
 🖐 If you have any question about me or my project, feel free to contact me!  
 - My **Github** Link: [**undefined**](https://github.com/undefined)  
-- My **Email**: **email**
+- My **Email**: **email@email.com**

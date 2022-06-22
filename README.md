@@ -6,6 +6,6 @@
 
 #### ![README Generator Img] (assets/img/readme-generator-img.png)
 
-##### [Recorded Video link]:
+##### [Recorded Video link]: https://drive.google.com/file/d/16tigL0nyrOJMl7mwDNEPfipEnJkUnUY4/view
 
 ###### [Sample README made with video recording] (sample/README.md)
