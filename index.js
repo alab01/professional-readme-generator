@@ -63,39 +63,40 @@ const generateREADME = function ({title, description, installation, usage, licen
      
     return  ` # ${title}
 
-        ${renderLicenseBadgeLink(licenses)}
+${renderLicenseBadgeLink(licenses)}
 
-        ## Table of Contents
-        - [**Description**](#description)
-        - [**Installation**](#installation)
-        - [**Usage**](#usage)
-        - [**License**](#license)
-        - [**Contributing**](#contributing)
-        - [**Tests**](#tests)
-        - [**Questions**](#questions)
+## Table of Contents
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions*](#questions)
 
-        ## Description
-        📑 ${description}
+### Description
+📑 ${description}
 
-        ## Installation
-        💾 ${installation} 
+#### Installation
+💾 ${installation} 
 
-        ## Usage
-        💻 ${usage}
+##### Usage
+💻 ${usage}
 
-        ## License
-        ${renderLicenseSection(licenses)}
+###### License
+${renderLicenseSection(licenses)}
 
-        ## Contributing
-        🔥 ${contributors}
+###### Contributing
+🔥 ${contributors}
 
-        ## Instructions
-        📌 ${instructions}
+###### Instructions
+📌 ${instructions}
 
-        ## Questions
-        🖐 If you have any question about me or my project, feel free to contact me!  
-        - My **Github** Link: [**${github}**](https://github.com/${github})  
-        - My **Email**: **${email}**`;
+###### Questions
+
+🖐 If you have any question about me or my project, feel free to contact me!  
+- My **Github** Link: [**${github}**](https://github.com/${github})  
+- My **Email**: **${email}**`;
 }
 
 const questions = [
@@ -158,7 +159,7 @@ inquirer.prompt(questions).then((data) => {
     const readmeContent = generateREADME(data);
     console.log(readmeContent);
 
-    fs.writeFile('./sample/README.md', readmeContent, (err) =>
+    fs.writeFile('sample/README.md', readmeContent, (err) =>
       err ? console.log(err) : console.log('Success!')
     );
   });
